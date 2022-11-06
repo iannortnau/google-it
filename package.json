@@ -1,12 +1,12 @@
 {
-  "name": "google-it",
+  "name": "google-it-reborn",
   "version": "1.6.3",
   "description": "A CLI and Node.js library to help retrieve, display, and store Google search results",
   "main": "./lib/main.js",
   "bin": "./lib/app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PatNeedham/google-it.git"
+    "url": "https://github.com/iannortnau/google-it.git"
   },
   "scripts": {
     "build": "babel src -d lib",
@@ -16,9 +16,13 @@
   },
   "keywords": [
     "google-search",
-    "google-search-to-json"
+    "google-search-to-json",
+    "google-to-json",
+    "google-api",
+    "google-search-api",
+    "google-search-api-free"
   ],
-  "author": "Pat Needham (pat@needham.io)",
+  "author": "Iann Ortnau (iannortnau)",
   "license": "ISC",
   "jest": {
     "preset": "amex-jest-preset",
