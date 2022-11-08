@@ -5,25 +5,25 @@ A simple library to convert Google search results to JSON output, with an intera
 
 ## Install
 
-`$ npm install --save -g google-it`
+`$ npm install --save -g google-it-reborn`
 
 ## Example Usage
 
-`$ google-it --query="Latvian unicorn"`
+`$ google-it-reborn --query="Latvian unicorn"`
 
 ![GIF of google-it](./images/google-it-demo.gif?raw=true "google-it")
 
 Prevent display in the terminal, and save results to a JSON file:
 
-`$ google-it --query="PWAs with react-router and redux" -o results.json -n`
+`$ google-it-reborn --query="PWAs with react-router and redux" -o results.json -n`
 
 ![GIF of google-it w/o display, results saved to file](./images/google-it-output-no-display.gif?raw=true "google-it")
 
-`$ google-it --query="open whisper systems" -O 5`
+`$ google-it-reborn --query="open whisper systems" -O 5`
 
 ![GIF of opening-in-browser](./images/open-results-in-browser.gif?raw=true "google-it-to-browser")
 
-`$ google-it --query="mechanical turk" --only-urls`
+`$ google-it-reborn --query="mechanical turk" --only-urls`
 
 ![Screenshot of only-urls option](./images/onlyUrls.png?raw=true "onlyUrls")
 
@@ -47,7 +47,7 @@ Prevent display in the terminal, and save results to a JSON file:
 - [x] something like:
 
 ```js
-const  googleIt = require('google-it')
+const  googleIt = require('google-it-reborn')
 
 googleIt({'query': 'covfefe irony'}).then(results => {
   // access to results object here
